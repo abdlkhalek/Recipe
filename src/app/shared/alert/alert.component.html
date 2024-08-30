@@ -1,0 +1,14 @@
+
+<!-- backdrop block access to the things in the background
+     and focus on the alert only
+-->
+<div class="backdrop" (click)="onClose()">
+
+</div>
+
+<div class="alert-box">
+    <p>{{ message }}</p>
+    <div class="alert-box-actions">
+        <button class="btn btn-primary" (click)="onClose()">Close</button>
+    </div>
+</div>
